@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import Login from '@/views/login/Login'
 import Home from '@/views/home/Home'
 import HomeSearch from '@/views/home/HomeSearch'
@@ -10,7 +9,7 @@ import Pay from '@/views/shopcart/Pay'
 import Order from '@/views/order/Order'
 import OrderDetail from '@/views/order/OrderDetail'
 import Mysale from '@/views/admin/Mysale'
-import Adminorderdetail from '@/views/admin/Adminorderdetail'
+import Adminorderdetail from '@/views/admin/AdminOrderDetail'
 import Myinfo from '@/views/user/Myinfo'
 Vue.use(Router)
 
